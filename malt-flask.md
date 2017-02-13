@@ -25,7 +25,7 @@ Une arborescence de repertoire devrait apparaître.
 
 Vous pouvez alors installer flask localement ou tout autre librairie python:
 ```
-pip3 install --user flask
+pip install --user flask
 ```
 
 Testez que flask est bien installé:
