@@ -23,24 +23,9 @@ où XXXX est encore votre port.
 De votre bureau, lancez un navigateur et accédez au 127.0.0.1:XXXX
 Une arborescence de repertoire devrait apparaître.
 
-Créez ensuite un environnement virtuel qui vous permettra d'installer flask localement (pour votre projet) et non
-globalement (sur le système en entier).
-
-Pour créer l'environnement virtuel:
+Vous pouvez alors installer flask localement ou tout autre librairie python:
 ```
-python3 -m venv env
-source env/bin/activate
-```
-
-Vous pouvez ensuite installer pip (qui vous permettra d'installer des librairies python)
-wget https://bootstrap.pypa.io/get-pip.py
-```
-python get-pip.py
-```
-
-Vous pouvez alors installer flask ou tout autre librairie python:
-```
-pip3 install flask
+pip3 install --user flask
 ```
 
 Testez que flask est bien installé:
