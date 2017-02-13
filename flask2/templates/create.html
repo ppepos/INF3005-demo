@@ -6,9 +6,9 @@
 		<h1>Créez votre humain</h1>
 		<a href="/">retour</a><br />
 		<a href="/list">Voir nos humains</a><br />
-    <form>
+    <form method="POST">
       Prenom:<br>
-      <input type="text" name="prenom"><br>
+      <input type="text" name="prenom" value="{{ default_prenom }}"><br>
       Nom:<br>
       <input type="text" name="nom"><br>
       Age:<br>
